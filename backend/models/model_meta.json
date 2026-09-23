@@ -1,0 +1,33 @@
+{
+  "features": [
+    "rainfall_mm",
+    "rainfall_intensity",
+    "cumulative_rainfall",
+    "soil_moisture",
+    "slope_degrees",
+    "elevation_m",
+    "vegetation_index",
+    "geology_risk",
+    "drainage_score"
+  ],
+  "labels": [
+    "LOW",
+    "MODERATE",
+    "HIGH",
+    "CRITICAL"
+  ],
+  "accuracy": 0.8539772727272728,
+  "feature_importances": {
+    "rainfall_mm": 0.21333744884026137,
+    "rainfall_intensity": 0.1739143207761226,
+    "cumulative_rainfall": 0.130564457800722,
+    "soil_moisture": 0.13454788126727857,
+    "slope_degrees": 0.16097025386447406,
+    "elevation_m": 0.021441148158897215,
+    "vegetation_index": 0.03450608066446302,
+    "geology_risk": 0.05373004993504556,
+    "drainage_score": 0.07698835869273574
+  },
+  "n_estimators": 200,
+  "model_type": "RandomForestClassifier"
+}

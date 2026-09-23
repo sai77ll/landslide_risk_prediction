@@ -1,0 +1,30 @@
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Python
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Database & Uploads
+*.db
+*.sqlite3
+backend/landslide.db
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Logs & temp
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
